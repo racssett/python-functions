@@ -17,3 +17,10 @@ def occurrences (str1, ltr):
 
 # print(occurrences('toodle-hoo', 'o'))
 
+def product (*args):
+  sum = 1
+  for arg in args:
+    sum *= arg
+  return sum
+
+print(product(1, 5, 7, 3))
